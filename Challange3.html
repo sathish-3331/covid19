@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+   float: left; 
+  width: 18%;
+  padding: 10px;
+  margin:20px 8x;
+  margin-top: auto;
+  margin-right: auto;
+  justify-content: center;
+  
+  height: 400px;
+}
+.column1 {
+   float: left; 
+   width: 18%;
+  padding: 10px;
+  margin:20px 8x;
+  margin-top: auto;
+  margin-right: auto;
+  justify-content: center;
+ 
+  height: 400px; 
+}
+.column2 {
+   float: left; 
+  width: 18%;
+  padding: 10px;
+  margin:20px 8x;
+  margin-top: auto;
+  margin-right: auto;
+  justify-content: center;
+  
+  height: 400px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+h1{
+    margin-left: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+p{
+    margin-left: 35px;
+    color:aliceblue; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+ /* Weights: 400  ; */
+}
+.button1{
+    margin-left: 10px;
+    margin-top: 100px;
+   color:hsl(31, 77%, 52%);
+   border-radius: 10px;
+   height: 30px;
+   width: 100px ;
+}
+.button2{
+    margin-left: 10px;
+    margin-top: 100px;
+   color:hsl(184, 100%, 22%);
+   border-radius: 10px;
+   height: 30px;
+   width: 100px ;
+}
+.button3{
+    margin-left: 10px;
+   margin-top: 100px;
+   color: hsl(179, 100%, 13%);
+   border-radius: 10px;
+   height: 30px;
+   width: 100px ;
+}
+.sedans img{
+    margin-left: 35px;
+}
+.suvs img{
+    margin-left: 35px;
+}
+.luxury img{
+    margin-left: 35px;
+}
+.container{
+  align-items: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+<div class="row">
+  <div class="column" style="background-color:hsl(31, 77%, 52%);">
+    <div class="sedans">
+        <img src="file:///C:/Users/geet3334/AppData/Local/Temp/Temp1_3-column-preview-card-component-main.zip/3-column-preview-card-component-main/images/icon-sedans.svg">
+    </div>
+    <h1>SEDANS</h1>
+    <p>Choose a sedan for its &emsp;affordability and excellent&emsp;&emsp;&emsp;&emsp;fuel economy. Ideal for&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;cruising in the city or on&emsp;&emsp;&emsp;&emsp;&emsp; your next road trip</p>
+    <p><button class="button1">Learn More</button></p>
+</div>
+  <div class="column1" style="background-color:hsl(184, 100%, 22%);">
+    <div class="suvs">
+        <img src="file:///C:/Users/geet3334/AppData/Local/Temp/Temp1_3-column-preview-card-component-main.zip/3-column-preview-card-component-main/images/icon-suvs.svg">
+    </div>
+    <h1>SUVS</h1>
+    <p>Take an SUV for its spacious&emsp;&emsp;interior, power, and &emsp;&emsp;&emsp;versatility. Perfect for your&emsp;&emsp;&emsp; next family vacation and&emsp;&emsp;&emsp;&emsp;&emsp;off-road adventures.</p>
+    <p><button class="button2">Learn More</button></p>
+</div>
+  <div class="column2" style="background-color: hsl(179, 100%, 13%);">
+    <div class="luxury">
+        <img src="file:///C:/Users/geet3334/AppData/Local/Temp/Temp1_3-column-preview-card-component-main.zip/3-column-preview-card-component-main/images/icon-luxury.svg">
+    </div>
+    <h1>LUXURY</h1>
+    <p>Cruise in the best car brands&emsp;&emsp;&emsp; without the bloated prices.&emsp;&emsp;&emsp;&emsp; Enjoy the enhanced comfort&emsp;&emsp;&emsp; of a luxury rental and arrive&emsp;&emsp;&emsp; in style</p>
+    <p><button class="button3">Learn More</button></p>
+</div>
+</div>
+</div>
+</body>
+</html>
